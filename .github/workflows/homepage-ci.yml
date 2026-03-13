@@ -9,6 +9,8 @@ on:
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout
@@ -55,6 +57,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/homepage:latest
-            ghcr.io/${{ github.repository }}/homepage:${{ github.sha }}
+            ghcr.io/phbauermann/homepage:latest
+            ghcr.io/phbauermann/homepage:${{ github.sha }}
 
