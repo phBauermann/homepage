@@ -7,6 +7,17 @@ export function App() {
       </header>
 
       <section className="card">
+        
+        
+        <h2> Update 1</h2>
+        <ul>
+          <li>automatisches Deployment via GitHub Actions</li>
+
+        </ul>
+
+        
+        
+        
         <h2>Was jetzt schon steht</h2>
         <ul>
           <li>Dev läuft ausschließlich via Docker Compose</li>
@@ -16,7 +27,7 @@ export function App() {
 
         <h2>Ausgangssituation</h2>
         <ul>
-                 <li><   Container-first Setup mit CI/CD als Ausgangspunkt. </li>
+                 <li>   Container-first Setup mit CI/CD als Ausgangspunkt. </li>
           </ul>
 
 
