@@ -82,3 +82,69 @@ body {
   color: var(--accent);
 }
 
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.post-list-item {
+  border-radius: 14px;
+  padding: 12px 14px;
+  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition:
+    background 0.15s ease-out,
+    border-color 0.15s ease-out,
+    transform 0.08s ease-out;
+}
+
+.post-list-item:hover {
+  border-color: var(--accent);
+  background: rgba(122, 162, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.post-list-item h3 {
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+
+.post-meta {
+  margin: 0 0 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.post-summary {
+  margin: 0;
+  color: var(--muted);
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition:
+    background 0.15s ease-out,
+    border-color 0.15s ease-out;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--accent);
+}
+
