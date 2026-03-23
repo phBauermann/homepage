@@ -30,6 +30,15 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Generate SBOM
+        run: npm run sbom
+
+      - name: Upload SBOM artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: sbom
+          path: sbom.xml
+
       - name: Build
         run: npm run build
 
