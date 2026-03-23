@@ -22,7 +22,7 @@
     "react-syntax-highlighter": "^16.1.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
+    "@eslint/js": "^10.0.1",
     "@types/js-yaml": "^4.0.9",
     "@types/react": "^19.0.2",
     "@types/react-copy-to-clipboard": "^5.0.7",
