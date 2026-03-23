@@ -37,7 +37,7 @@ function parsePost(md: string, previewImage?: string): Post {
   if (parts.length < 3) throw new Error('Invalid frontmatter');
   const frontmatter = parts[1].trim();
   const body = parts.slice(2).join('---').trim();
-  const attributes = yaml.load(frontmatter, { schema: yaml.FAILSAFE_SCHEMA }) as any;
+  const attributes = yaml.load(frontmatter, { schema: yaml.FAILSAFE_SCHEMA }) as Record<string, unknown>;
   return {
     ...attributes,
     body,
