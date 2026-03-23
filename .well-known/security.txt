@@ -1,0 +1,15 @@
+# Security Policy for Homepage Project
+# This file follows RFC 9116 (https://www.rfc-editor.org/rfc/rfc9116.html)
+
+Contact: https://github.com/phBauermann/homepage/security/advisories
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en,de
+
+# Security researchers should:
+# 1. Check existing issues and advisories before reporting
+# 2. Use GitHub Security Advisories for coordinated disclosure
+# 3. Include detailed reproduction steps and impact assessment
+# 4. Allow reasonable time for fixes before public disclosure
+
+# Encryption: Not currently supported
+# Acknowledgments: https://github.com/phBauermann/homepage/security/advisories
